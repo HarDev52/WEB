@@ -39,7 +39,6 @@ public class LoginStepsDef {
         WebElement textologo;
         WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 
-
         textologo=driver.findElement(LoginPage.titulo);
         wait.until(ExpectedConditions.visibilityOf(textologo));
 

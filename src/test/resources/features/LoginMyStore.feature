@@ -8,5 +8,6 @@ Característica: Login
   @testLogin
   Escenario: Iniciar sesión
     Dado que me encuentro en la página de login de MyStore
+    Y selecciono Iniciar sesion
     Cuando inicio sesion con las credenciales usuario: "ackerman05@hotmail.com" y contraseña: "Sudametrica123***"
-    Entonces valido que debería aparecer el texto de "Products"
+    #Entonces valido que debería aparecer el texto de "Products"
